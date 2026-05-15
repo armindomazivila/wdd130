@@ -3,14 +3,16 @@ nav {
     padding: 10px;
 }
 
-nav {
+nav a {
     color: white;
     padding: 10px;
     display: block;
 }
 
-h1 {
-    color: steelblue;
+main {
+    max-width: 850px;
+    margin: 0 auto;
+
 }
 
 main img {
