@@ -1,0 +1,78 @@
+:root {
+    --primary-color: #0b4f6c;
+    /* dark blue */
+    --secondary-color: #01baef;
+    /* light blue */
+    --accent1-color: #fbfbff;
+    /* white */
+    --accent2-color: #20bf55;
+    /* green */
+    --heading-font: "Georgia", serif;
+    --body-font: "Arial", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--primary-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--primary-color);
+    color: #fbfbff
+}
+
+.hero article {
+    position: absolute;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+}
