@@ -68,6 +68,14 @@ nav {
     align-items: center;
 }
 
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+}
+
 p,
 section,
 article {
