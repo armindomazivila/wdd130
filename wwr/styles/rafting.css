@@ -98,6 +98,10 @@ nav a:hover {
     margin-bottom: 40px;
 }
 
+.hero h1 {
+    position: absolute;
+}
+
 .hero-title {
     position: absolute;
     top: 20px;
